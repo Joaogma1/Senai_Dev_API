@@ -1,0 +1,14 @@
+C:\Users\00836578279\Documents\SENAI-Sprint2-BackEnd\Senai.Marvel.WebAPI\Senai.Marvel.WebAPI\bin\Debug\netcoreapp2.1\Senai.Marvel.WebAPI.deps.json
+C:\Users\00836578279\Documents\SENAI-Sprint2-BackEnd\Senai.Marvel.WebAPI\Senai.Marvel.WebAPI\bin\Debug\netcoreapp2.1\Senai.Marvel.WebAPI.runtimeconfig.json
+C:\Users\00836578279\Documents\SENAI-Sprint2-BackEnd\Senai.Marvel.WebAPI\Senai.Marvel.WebAPI\bin\Debug\netcoreapp2.1\Senai.Marvel.WebAPI.runtimeconfig.dev.json
+C:\Users\00836578279\Documents\SENAI-Sprint2-BackEnd\Senai.Marvel.WebAPI\Senai.Marvel.WebAPI\bin\Debug\netcoreapp2.1\Senai.Marvel.WebAPI.dll
+C:\Users\00836578279\Documents\SENAI-Sprint2-BackEnd\Senai.Marvel.WebAPI\Senai.Marvel.WebAPI\obj\Debug\netcoreapp2.1\Senai.Marvel.WebAPI.csprojAssemblyReference.cache
+C:\Users\00836578279\Documents\SENAI-Sprint2-BackEnd\Senai.Marvel.WebAPI\Senai.Marvel.WebAPI\obj\Debug\netcoreapp2.1\Senai.Marvel.WebAPI.csproj.CoreCompileInputs.cache
+C:\Users\00836578279\Documents\SENAI-Sprint2-BackEnd\Senai.Marvel.WebAPI\Senai.Marvel.WebAPI\obj\Debug\netcoreapp2.1\Senai.Marvel.WebAPI.RazorAssemblyInfo.cache
+C:\Users\00836578279\Documents\SENAI-Sprint2-BackEnd\Senai.Marvel.WebAPI\Senai.Marvel.WebAPI\obj\Debug\netcoreapp2.1\Senai.Marvel.WebAPI.RazorAssemblyInfo.cs
+C:\Users\00836578279\Documents\SENAI-Sprint2-BackEnd\Senai.Marvel.WebAPI\Senai.Marvel.WebAPI\obj\Debug\netcoreapp2.1\Senai.Marvel.WebAPI.AssemblyInfoInputs.cache
+C:\Users\00836578279\Documents\SENAI-Sprint2-BackEnd\Senai.Marvel.WebAPI\Senai.Marvel.WebAPI\obj\Debug\netcoreapp2.1\Senai.Marvel.WebAPI.AssemblyInfo.cs
+C:\Users\00836578279\Documents\SENAI-Sprint2-BackEnd\Senai.Marvel.WebAPI\Senai.Marvel.WebAPI\obj\Debug\netcoreapp2.1\Senai.Marvel.WebAPI.RazorTargetAssemblyInfo.cache
+C:\Users\00836578279\Documents\SENAI-Sprint2-BackEnd\Senai.Marvel.WebAPI\Senai.Marvel.WebAPI\bin\Debug\netcoreapp2.1\Senai.Marvel.WebAPI.pdb
+C:\Users\00836578279\Documents\SENAI-Sprint2-BackEnd\Senai.Marvel.WebAPI\Senai.Marvel.WebAPI\obj\Debug\netcoreapp2.1\Senai.Marvel.WebAPI.dll
+C:\Users\00836578279\Documents\SENAI-Sprint2-BackEnd\Senai.Marvel.WebAPI\Senai.Marvel.WebAPI\obj\Debug\netcoreapp2.1\Senai.Marvel.WebAPI.pdb
