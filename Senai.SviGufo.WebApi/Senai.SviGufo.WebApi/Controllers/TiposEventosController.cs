@@ -1,5 +1,7 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using Senai.SviGufo.WebApi.Interfaces;
 using Senai.SviGufo.WebApi.Properties.Domains;
+using Senai.SviGufo.WebApi.Repositories;
 using System.Collections.Generic;
 
 namespace Senai.SviGufo.WebApi.Properties.Controllers
@@ -15,8 +17,15 @@ namespace Senai.SviGufo.WebApi.Properties.Controllers
             new TipoEventoDomain{ID = 1, Nome= "Tecnologia"},
             new TipoEventoDomain{ID = 2, Nome = "Arquitetura"},
             new TipoEventoDomain{ID = 3, Nome= "Engenharia"},
-            new TipoEventoDomain{ID = 4, Nome = "Educação"}
+            new TipoEventoDomain{ID = 4, Nome = "Design"}
         };
+
+        private ITipoEventoRepository tipoEventoRepository { get; set; }
+
+        public TiposEventosController()
+        {
+            tipoEventoRepository = new TipoEventoRepository();
+        }
         /// <summary>
         /// Retorna uma string atraves do metodo get
         /// </summary>
@@ -31,7 +40,7 @@ namespace Senai.SviGufo.WebApi.Properties.Controllers
 
         [HttpGet]
         //retorna uma lista de eventos
-        public IEnumerable<TipoEventoDomain> get() => tiposEventos;
+        public IEnumerable<TipoEventoDomain> get() => tipoEventoRepository.listar();
 
         /// <summary>
         /// Retorna um tipo de evento pelo seu id
@@ -51,6 +60,41 @@ namespace Senai.SviGufo.WebApi.Properties.Controllers
             {
                 return Ok(value: TipoEventoSerProcurado);
             }
+        }
+        /// <summary>
+        /// Envia dados
+        /// </summary>
+        /// <param name="tipoEvento"></param>
+        /// <returns></returns>
+        [HttpPost]
+        public IActionResult post(TipoEventoDomain tipoEvento)
+        {
+            return Ok();
+        }
+        /// <summary>
+        /// Atualiza dados
+        /// </summary>
+        /// <returns></returns>
+        [HttpPut]
+        public IActionResult put(TipoEventoDomain tipoEvento)
+        {
+            return Ok();
+        }
+        /// <summary>
+        /// Altera tipo de evento passando o id pela url
+        /// </summary>
+        /// <param name="id"></param>
+        /// <param name="tipoEvento"></param>
+        /// <returns></returns>
+        [HttpPut("{id}")]
+        public IActionResult putbyid(int id,TipoEventoDomain tipoEvento)
+        {
+            return Ok();
+        }
+        [HttpDelete("{id}")]
+        public IActionResult delete(int id)
+        {
+            return Ok();
         }
     }
 }
